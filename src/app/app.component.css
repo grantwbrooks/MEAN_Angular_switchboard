@@ -3,7 +3,15 @@
 
 .switching{
     display: inline-block;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: burlywood;
 }
 button{
     color: white;
+    height: 50px;
+    width: 50px;
 }
+button:focus {
+    outline: none;
+  }
